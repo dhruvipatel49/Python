@@ -1,0 +1,11 @@
+names_set=set()
+names_set.update(["Dhruvi","Radhi","Smruti","Dhruva","Rency"])
+print("set after adding numbers:",names_set)
+if "Dhruvi" in names_set:
+    names_set.remove("Dhruvi")
+    names_set.add("Yashita")
+print("set after modifying:",names_set)
+names_set.discard("Dhruva")
+names_set.discard("Smruti")
+print("set after deleting two names:",names_set)
+print(sorted(names_set))
